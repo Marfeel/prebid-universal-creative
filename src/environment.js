@@ -51,7 +51,7 @@ function isDfp() {
 export function isAmp(dataObject) {
   // TODO Use amp context once it is available in cross domain
   // https://github.com/ampproject/amphtml/issues/6829
-  return typeof dataObject.uuid === 'string' && dataObject.uuid != "" && isCrossDomain();
+  return true;
 }
 
 /**
